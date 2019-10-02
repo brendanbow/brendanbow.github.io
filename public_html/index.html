@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Project 0</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <script src="https://d3js.org/d3.v3.js"></script>
+    </head>
+    <body>
+        <div class="sidebar">
+            <h1>Cholera Abound</h1>
+            <h3>Brendan Bow, September 2019</h3>
+            <div class="button">
+                <b><a href="documentation.html">Documentation/About</a></b>
+            </div>
+            <br><br><hr> 
+         
+            <div>
+                <input id="none" type="radio" name="grouping" value="age" class="selection" checked/>
+                <p>Don't sort by color: &nbsp;
+                    <b style="color:red">Death &nbsp;</b>
+                </p>
+            </div>
+            <div>
+                <input id="genderize" type="radio" name="grouping" value="gender" class="selection" />
+                <p>Color by gender: &nbsp;
+                    <b style="color:purple">Male &nbsp;</b>
+                    <b style="color:coral">Female</b>
+<!--                    <b style="color:#7570b3">Male &nbsp;</b>
+                    <b style="color:#d95f02">Female</b>-->
+                </p>
+            </div>
+            <div>
+                <input id="agify" type="radio" name="grouping" value="age" class="selection" />
+                <p>Color by age:&nbsp;
+                    <b style="color:#ffffff; -webkit-text-stroke: 1px grey;">0-10 &nbsp;</b>
+                    <b style="color:#ccece6; -webkit-text-stroke: 1px grey;">11-20 &nbsp;</b>
+                    <b style="color:#99d8c9; -webkit-text-stroke: 1px grey;">21-40 &nbsp;</b>
+                    <b style="color:#66c2a4; -webkit-text-stroke: 1px grey;">41-60 &nbsp;</b>
+                    <b style="color:#2ca25f; -webkit-text-stroke: 1px grey;">61-80 &nbsp;</b>
+                    <b style="color:#006d2c; -webkit-text-stroke: 1px grey;">81+ &nbsp;</b>
+                </p>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+</html>

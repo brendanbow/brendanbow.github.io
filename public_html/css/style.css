@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 12, 2017, 10:44:15 AM
+    Author     : brend
+*/
+body {
+    font: 12pt Arial;
+    color: #000000;
+    background-color: lightgrey;
+}
+
+p.doc {
+    padding-left: 50px;
+}
+
+div.sidebar {
+    float: left;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+div.content {
+    float: right;
+}
+
+div.button {
+    padding: 7px;
+    background-color: skyblue;
+    float: left;
+}
+
+input.selection{
+    float: left; 
+    margin-top: 10px;
+}
+
+p {
+    padding-top: 6px;
+    overflow: hidden;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
